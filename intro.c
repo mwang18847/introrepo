@@ -6,10 +6,10 @@ UNIVERSITY’S ACADEMIC INTEGRITY POLICY. */
 /* Author: Michael Wang */
 int main(void)
 {
-	int array{1, 2, 3, 4, 5};
-	int sum;
-	for (i=0;i<sizeof(array);i++) {
+	int array[] = {1, 2, 3, 4, 5};
+	int sum = 0;
+	for (int i=0;i<5;i++) {
 		sum = sum + array[i];
 	}
-	printf("Sum is %u", sum);
+	printf("Sum is %d\n", sum);
 }
